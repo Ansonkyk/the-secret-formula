@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BS Paint 1.0</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body ondragstart="return false;" ondrop="return false;">
+    <div>
+      
+      <section class="Part1">
+        <form id=part1form>
+        <div class=" Parttext"> Part 1: The alerter</div>
+        <input id="userInput1" type="text" autocomplete="off" placeholder="Enter your name"/>   
+        <input id="submitButtonPart1" type="submit"/>
+        </form>
+      </section>
+      <section class="Part2">
+        <form id=part2form>
+        <div class=" Parttext"> Part 2: The alerter</div>
+        
+        <label>Ham<input id="Ham" type="checkbox"></label>
+        <label>Chicken<input id="Chicken" type="checkbox"></label>
+        <label>Baby spinach<input id="Babyspinach" type="checkbox"></label>
+        <label>Banana peppers<input id="Bananapeppers" type="checkbox"></label>
+        <label>Black olives<input id="Blackolives" type="checkbox"></label>
+        <label>Cucumbers<input id="Cucumbers" type="checkbox"></label>
+        <label>Lettuce<input id="Lettuce" type="checkbox"></label>
+        <label>Tomatoes<input id="Tomatoes" type="checkbox"></label>
+        <input id="submitButtonPart2" type="submit"/>
+        </form>
+      </section>
+      <section class="Part3">
+        <div class=" Parttext"> Part 3</div>
+        <form id=part3form> 
+        <label>Date<input id="DateHair" type="date"></label>
+        <input id="userInput3" type="text" autocomplete="off" placeholder="request a specific hair cutter"/> 
+        <div id='hair-length'>
+        <label>Short hair<input id="Short" type="radio"></label>
+        <label>Long hair<input id="Long" type="radio"></label>
+        </div>
+        <input id="submitButtonPart3" type="submit"/>
+        </form>
+      </section>
+      <section class="Part4">
+        <div class=" Parttext"> Part 4</div>
+        <form id=part4form>
+        <input id="username" type="text" autocomplete="off" placeholder="username"/> 
+        <label>Birthdate<input id="BD" type="date"></label>
+        <input id="email" type="text" autocomplete="off" placeholder="email"/> 
+        <input id="password" type="text" autocomplete="off" placeholder="password"/> 
+        <input id="confirm" type="text" autocomplete="off" placeholder="confirm password "/> 
+
+        <input id="submitButtonPart4" type="submit"/>
+        </form>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
